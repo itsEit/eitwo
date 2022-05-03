@@ -11,6 +11,7 @@ client.on("ready", () => {
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isCommand()) return;
 
+
   if (interaction.commandName === "ping") {
     await interaction.reply("Pong on deez nutz!");
   } else if (interaction.commandName === "joke") {
@@ -21,7 +22,9 @@ client.on("interactionCreate", async (interaction) => {
       `${line1} \n ${line2} \n \n *If this joke is offensive.... Firlei came up with it*`
     );
   } else if (interaction.commandName === "bluewaffle") {
-    await interaction.reply("You Sick Fuck");
+    await interaction.reply("You Sick #$%!");
+  } else if (interaction.commandName === "thejoke") {
+    await interaction.reply("A Californian goes hunting with his friend from Idaho. One day they come across a sheep with it's head stuck in a fence. The Idahonian says to his California buddy, \"opportunities like this don't come to often. If you don't mind, I'm going to take advantage of it.\" The Idahonian drops his pants and has his way with the stuck ewe. The Californian says, \"mind if I get in on the action? \"Of course not\", replies the guy from Idaho. So the Californian proceeds to push the ewe through the fence, and then sticks his head in it......\n andy is the californian");
   }
 });
 

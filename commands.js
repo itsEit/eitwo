@@ -13,6 +13,10 @@ const commands = [
     description: "Says a joke",
   },
   {
+    name: "thejoke",
+    description: "Says the joke",
+  },
+  {
     name: "bluewaffle",
     description: "You know what it is",
   },
